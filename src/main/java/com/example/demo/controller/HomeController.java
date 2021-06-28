@@ -14,8 +14,8 @@ public class HomeController {
 	@GetMapping("controles")
 	public ModelAndView controles()
 	{
-		
-		return null;
+		ModelAndView mv=new ModelAndView("types.html");
+		return mv;
 	}
 
 }
